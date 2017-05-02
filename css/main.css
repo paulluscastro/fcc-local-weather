@@ -1,0 +1,63 @@
+.outter {
+  display: table;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+.inner {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#author {
+  font-size: 1em;
+}
+
+#details {
+  font-family: "Open Sans", "Tahoma", "Verdana", "Arial", sans-serif;
+}
+
+.wi-spacer {
+  margin-left: 16px;
+}
+
+#format {
+  font-size: 60px;
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  color: #c0c0c0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#icon{
+  font-size: 3.75em;
+}
+
+#description{
+  font-size: 1em;
+}
+#city{
+  font-size: 2.5em;
+}
+
+
+#format:hover {
+  color: #c0c0ff;
+}
+
+@media (max-width: 992px) {
+  #quote {
+    font-size: 2.0em;
+  }
+
+  #randomizer {
+    font-size: 25px;
+    right: 16px;
+    top: 16px;
+  }
+}
